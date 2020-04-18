@@ -9,7 +9,7 @@ def get_audio():
     Format = pyaudio.paInt16
     Channels = 2
     Rate = 16000
-    Record_seconds = 2#时长
+    Record_seconds = 10#时长
     Wave_Output_Filename = "out.wav"
     p = pyaudio.PyAudio()
     stream = p.open(format=Format,
